@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ортоинтелект — Стоматологическая клиника</title>
+    <meta name="description" content="Стоматологическая клиника Ортоинтелект. Малая Грузинская улица, 20/13 стр 1, Пресненский, Москва. +7-903-52...">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="tooth-emoji">🦷</div>
+            <div class="brand"><span class="brand-top">Стоматология</span><span class="brand-bottom">Ортоинтелект</span></div>
+            <div class="progress-wrap">
+                <div class="progress" id="preloaderProgress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo"><span class="logo-top">Стоматология</span><span class="logo-bottom">Ортоинтелект</span></a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#team" class="nav-link">Команда</a></li>
+                    <li><a href="#faq" class="nav-link">Вопросы</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#" class="icon">◎</a>
+                    <a href="#" class="icon">♥</a>
+                </div>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Записаться на приём</a>
+            <button class="burger" id="burger" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-text reveal">
+                <div class="hero-kicker">Стоматологическая клиника Ортоинтелект</div>
+                <h1 class="hero-title">Комфортное лечение<br><span class="accent">без боли и стресса</span></h1>
+                <p class="hero-desc">Стоматологическая клиника Ортоинтелект. Комплексная диагностика, лечение, имплантация и эстетика улыбки.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-large">Записаться на приём</a>
+                    <a href="#services" class="btn btn-outline btn-large">Наши услуги</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat reveal"><span class="num" data-target="4">0</span><span class="label">статус на картах</span></div>
+                    <div class="stat reveal"><span class="num" data-target="5">0</span><span class="label">звёзд рейтинга</span></div>
+                    <div class="stat reveal"><span class="num" data-target="13">0</span><span class="label">отзывов пациентов</span></div>
+                </div>
+            </div>
+            <div class="hero-visual reveal reveal-right">
+                <div class="laptop-anim-wrap">
+                    <div class="laptop-shadow"></div>
+                    <img src="hero-laptop-clean.png" alt="Ноутбук с зубом на экране" class="laptop-img reveal reveal-right">
+                    <div class="laptop-glare"></div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down reveal">
+                <span>Прокрутить вниз</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container about-grid">
+            <div class="about-visual reveal reveal-left">
+                <div class="tools-frame">
+                    <img src="tools-frame.png" alt="Стоматологические инструменты" class="tools-frame-img">
+                </div>
+            </div>
+            <div class="about-text reveal reveal-delay">
+                <h2 class="section-title">Ортоинтелект Стоматология</h2>
+                <p class="section-desc">Стоматологическая клиника Ортоинтелект. Комплексная диагностика и лечение по доступным ценам.</p>
+                <ul class="feature-list">
+                    <li><span class="check">✓</span> Современное оборудование</li>
+                    <li><span class="check">✓</span> Чёткая информация об услугах и ценах</li>
+                    <li><span class="check">✓</span> Укрепление профессиональной репутации</li>
+                    <li><span class="check">✓</span> Комфортный опыт для пациента без стресса</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="kicker">Наши услуги</span>
+                <h2 class="section-title">Всё для вашей улыбки</h2>
+                <p class="section-desc">Индивидуальный подход и современные технологии для каждого пациента.</p>
+            </div>
+            <div class="services-grid">
+                <div class="card reveal">
+                    <div class="card-icon">🦷</div>
+                    <h3>Терапевтическая стоматология</h3>
+                    <p>Лечение кариеса, пульпита, реставрация зубов и эстетические пломбы.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+                <div class="card reveal reveal-delay">
+                    <div class="card-icon">✨</div>
+                    <h3>Эстетическая стоматология</h3>
+                    <p>Отбеливание, виниры, художественная реставрация и дизайн улыбки.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+                <div class="card reveal reveal-delay2">
+                    <div class="card-icon">💉</div>
+                    <h3>Хирургия и имплантация</h3>
+                    <p>Атрауматичное удаление зубов, имплантация, костная пластика и реконструкция.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+                <div class="card reveal reveal-delay">
+                    <div class="card-icon">👶</div>
+                    <h3>Детская стоматология</h3>
+                    <p>Деликатное лечение для маленьких пациентов без страха и слёз.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+                <div class="card reveal reveal-delay2">
+                    <div class="card-icon">🧼</div>
+                    <h3>Гигиена и профилактика</h3>
+                    <p>Профессиональная чистка, фторирование и обучение уходу за полостью рта.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon">😬</div>
+                    <h3>Ортодонтия</h3>
+                    <p>Брекет-системы, элайнеры и коррекция прикуса для взрослых и детей.</p>
+                    <a href="#contact" class="card-link">Записаться сейчас <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Get In Touch -->
+    <section class="cta" id="contact">
+        <div class="cta-bg"></div>
+        <div class="container cta-grid">
+            <div class="cta-text reveal">
+                <span class="kicker">Связаться с нами</span>
+                <h2 class="section-title">Запишитесь на приём в клинику Ортоинтелект</h2>
+                <p class="cta-desc">Оставьте заявку и мы перезвоним в течение 15 минут.</p>
+                <div class="cta-contacts reveal reveal-delay">
+                    <div class="contact-item"><span class="icon">📍</span><div><div class="c-title">Адрес</div><div class="c-value">Малая Грузинская улица, 20/13 стр 1, Пресненский, Москва, 123242</div></div></div>
+                    <div class="contact-item"><span class="icon">📞</span><div><div class="c-title">Телефон</div><div class="c-value">+7-903-52...</div></div></div>
+                    <div class="contact-item"><span class="icon">⏰</span><div><div class="c-title">Режим работы</div><div class="c-value">Открыто<br>Закроется через 17 минут</div></div></div>
+                    <div class="contact-item"><span class="icon">💬</span><div><div class="c-title">Мессенджеры</div><div class="c-value">WhatsApp</div></div></div>
+                </div>
+            </div>
+            <div class="cta-form-wrap reveal reveal-delay2">
+                <form id="appointmentForm" class="appointment-form">
+                    <div class="form-row">
+                        <div class="form-group"><label>Имя</label><input type="text" placeholder="Иван Иванов" required></div>
+                        <div class="form-group"><label>Телефон</label><input type="tel" placeholder="+7 (___) ___-__-__" required></div>
+                    </div>
+                    <div class="form-group"><label>Услуга</label><select required><option>Консультация</option><option>Лечение кариеса</option><option>Отбеливание зубов</option><option>Имплантация</option><option>Брекеты и элайнеры</option><option>Другое</option></select></div>
+                    <div class="form-group"><label>Комментарий</label><textarea rows="3" placeholder="Дополнительная информация"></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="why-us">
+        <div class="container why-grid reveal">
+            <div class="why-text">
+                <span class="kicker">Почему выбирают Ортоинтелект</span>
+                <h2 class="section-title">Забота о вашем здоровье</h2>
+                <div class="why-points">
+                    <div class="why-point">
+                        <div class="why-num">01</div>
+                        <div>
+                            <div class="why-t">Опыт и репутация</div>
+                            <div class="why-d">Тысячи довольных пациентов и безупречная репутация.</div>
+                        </div>
+                    </div>
+                    <div class="why-point">
+                        <div class="why-num">02</div>
+                        <div>
+                            <div class="why-t">Чёткие цены</div>
+                            <div class="why-d">Услуги и цены описаны чётко — нет скрытых платежей и неясной информации.</div>
+                        </div>
+                    </div>
+                    <div class="why-point">
+                        <div class="why-num">03</div>
+                        <div>
+                            <div class="why-t">Удобная запись</div>
+                            <div class="why-d">Запишитесь по телефону или через форму на сайте — перезвоним за 15 минут.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="why-visual">
+                <img src="kids-room.png" alt="Детский стоматологический кабинет" class="why-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="kicker">Наша команда</span>
+                <h2 class="section-title">Наша команда</h2>
+                <p class="section-desc">Опытные специалисты, чья забота — основа вашего здоровья.</p>
+            </div>
+            <div class="team-grid">
+                <div class="t-card reveal">
+                    <div class="t-img"><div class="t-placeholder">Врач-терапевт</div></div>
+                    <div class="t-info">
+                        <h3>Врач-терапевт</h3>
+                        <p class="t-role">Лечение кариеса и реставрация</p>
+                        <p class="t-bio">Опыт работы более 10 лет.</p>
+                        <div class="t-social"><a href="#">vk</a><a href="#">tg</a></div>
+                    </div>
+                </div>
+                <div class="t-card reveal reveal-delay">
+                    <div class="t-img"><div class="t-placeholder">Хирург-имплантолог</div></div>
+                    <div class="t-info">
+                        <h3>Хирург-имплантолог</h3>
+                        <p class="t-role">Удаление зубов и имплантация</p>
+                        <p class="t-bio">Атрауматичные методы лечения.</p>
+                        <div class="t-social"><a href="#">vk</a><a href="#">tg</a></div>
+                    </div>
+                </div>
+                <div class="t-card reveal reveal-delay2">
+                    <div class="t-img"><div class="t-placeholder">Ортодонт</div></div>
+                    <div class="t-info">
+                        <h3>Ортодонт</h3>
+                        <p class="t-role">Брекеты и элайнеры</p>
+                        <p class="t-bio">Коррекция прикуса для взрослых и детей.</p>
+                        <div class="t-social"><a href="#">vk</a><a href="#">tg</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-dots reveal">
+                <button class="dot active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems / Solutions -->
+    <section class="problems">
+        <div class="container ps-grid reveal">
+            <div class="ps-card ps-problems">
+                <h3>Проблемы</h3>
+                <p class="ps-lead">Страхи, тревога и неопределённость пациентов при выборе стоматологической клиники онлайн.</p>
+                <p class="ps-desc">Неясная информация о лечении и ценах, а также сложный пользовательский опыт затрудняют запись на консультацию.</p>
+            </div>
+            <div class="ps-card ps-solutions">
+                <h3>Решения</h3>
+                <p class="ps-lead">Клиника Ортоинтелект — ясность, чёткая структура услуг, укрепление профессиональной репутации и упрощение пути к интуитивной и комфортной записи.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="kicker">Частые вопросы</span>
+                <h2 class="section-title">Вопросы и ответы</h2>
+            </div>
+            <div class="faq-list reveal reveal-delay">
+                <div class="faq-item">
+                    <div class="faq-q faq-question" tabindex="0">
+                        <span>Сколько стоит лечение кариеса?</span>
+                        <span class="toggle">+</span>
+                    </div>
+                    <div class="faq-a hidden">От 10 900 ₽. Точная цена зависит от сложности и материала пломбы — уточняем после осмотра.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q faq-question" tabindex="0">
+                        <span>Нужен ли осмотр перед имплантацией?</span>
+                        <span class="toggle">+</span>
+                    </div>
+                    <div class="faq-a hidden">Да. Перед имплантацией проводим диагностику и составляем план лечения, чтобы подобрать подходящий вариант.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q faq-question" tabindex="0">
+                        <span>Принимаете ли вы детей?</span>
+                        <span class="toggle">+</span>
+                    </div>
+                    <div class="faq-a hidden">Да, у нас есть детское направление — деликатное лечение без страха и слёз.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q faq-question" tabindex="0">
+                        <span>Как записаться на приём?</span>
+                        <span class="toggle">+</span>
+                    </div>
+                    <div class="faq-a hidden">По телефону +7-903-52..., через форму на сайте или в WhatsApp. Перезвоним в течение 15 минут.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container f-grid">
+            <div class="f-brand">
+                <a href="#" class="logo"><span class="logo-top">Стоматология</span><span class="logo-bottom">Ортоинтелект</span></a>
+                <p class="f-desc">Стоматологическая клиника Ортоинтелект. Здоровые зубы — наша забота.</p>
+            </div>
+            <div class="f-links">
+                <div class="f-group">
+                    <div class="f-g-title">Клиника</div>
+                    <a href="#home">Главная</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#team">Команда</a>
+                </div>
+                <div class="f-group">
+                    <div class="f-g-title">Пациентам</div>
+                    <a href="#faq">Вопросы</a>
+                    <a href="#contact">Запись</a>
+                    <a href="#about">О нас</a>
+                </div>
+                <div class="f-group">
+                    <div class="f-g-title">Контакты</div>
+                    <a href="tel:+790352">+7-903-52...</a>
+                    <a href="#">Малая Грузинская улица, 20/13 стр 1, Москва</a>
+                </div>
+            </div>
+            <div class="f-bottom">
+                <p class="f-copy">© 2026 Клиника Ортоинтелект. Все права защищены.</p>
+                <div class="f-social">
+                    <a href="#">vk</a>
+                    <a href="#">tg</a>
+                    <a href="#">wa</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
